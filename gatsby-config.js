@@ -1,15 +1,15 @@
 module.exports = {
-  pathPrefix: "/leonids",
+  pathPrefix: "/",
   siteMetadata: {
-    title: `Leonids`,
+    title: `Mayank Suman`,
     author: {
-      name: `@ry_zou`,
-      summary: `web dev`,
+      name: `@mayanksuman`,
+      summary: `a frontend engineer`,
     },
-    description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
-    siteUrl: `https://renyuanz.github.io/leonids`,
+    description: `Blogs by Mayank suman`,
+    siteUrl: "https://blog.mayanksuman.dev",
     social: {
-      twitter: `ry_zou`,
+      twitter: `mayanksuman7`,
     },
     defaultImage: "images/bg.jpeg",
   },
@@ -55,19 +55,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-62251910-1`,
+        trackingId: `G-CPSQP0DHJK`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ryz`,
-        short_name: `Ryz`,
+        name: `Mayank Suman`,
+        short_name: `Mayank`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
+        display: `Mayank Suman blog`,
         icon: `content/assets/gatsby-icon.png`,
       },
     },
