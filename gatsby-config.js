@@ -10,6 +10,8 @@ module.exports = {
     siteUrl: "https://blog.mayanksuman.dev",
     social: {
       twitter: `mayanksuman7`,
+      linkedInUrl: `https://www.linkedin.com/in/mayanksuman/`,
+      emailId: "mayankcsmn@gmail.com",
     },
     defaultImage: "images/bg.jpeg",
   },
