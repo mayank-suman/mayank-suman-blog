@@ -62,9 +62,13 @@ const Bio = () => {
         Written by <strong>{author.name}</strong> {author.summary}
         {`. `}
         {"Write a line on "}
-        <a href={`mailto:${social.emailId}`}>email</a>
+        <a href={`mailto:${social.emailId}`} target="blank">
+          email
+        </a>
         {" or contact on "}
-        <a href={`${social.linkedInUrl}`}>linkedIn</a>
+        <a href={`${social.linkedInUrl}`} target="blank">
+          linkedIn
+        </a>
       </p>
     </div>
   )
